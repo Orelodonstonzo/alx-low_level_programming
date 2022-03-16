@@ -5,7 +5,6 @@
 /**
  ​* main - Entry point, prints out
  ​* random numbers
- *
  ​*Return: Always 0 (Success)
  */
 int main(void)
