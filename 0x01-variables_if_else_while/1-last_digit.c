@@ -2,12 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 
- /**
- * main - Entry point, prints the
- * last digit of a number stored
- *
- * Return: Always 0 (Success)
- */
+/**
+* main - Entry point, prints the
+* last digit of a number stored
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 int n, a;
