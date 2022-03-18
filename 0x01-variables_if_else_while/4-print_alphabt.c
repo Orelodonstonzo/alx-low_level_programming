@@ -9,10 +9,10 @@ int main(void)
 char ch = 'a' ;
 for (; ch <= 'z' ; ch++)
 {
-  {
-    while(ch == 'e' || ch =='q')
-     ch++;
-   }
+{
+while(ch == 'e' || ch =='q')
+ch++;
+}
 putchar(ch);
 }
 putchar('\n');
