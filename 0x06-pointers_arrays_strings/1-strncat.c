@@ -2,29 +2,23 @@
 
 /**
 * _strncat - function that concatenates two strings
-* The _strncat function is similar to the _strcat function, except that
-* it will use at most n bytes from src; and
-* src does not need to be null terminated if it contains n or more bytes
-* @dest: char pointer variable
-* @src: char pointer variable
-* @n int type variable
-* Return: a pointer to the resulting string dest
+* @dest: string
+* @src: string
+* @n: number of element to concatenate in
+* Return: a pointer to the resulting dest
 */
 
 char *_strncat(char *dest, char *src, int n)
 {
-int i, j;
+int i, c;
 
 for (i = 0; dest [i] != '\0'; i++)
 ;
-for (j = 0; src[j] != '\0'; j++)
+
+for (c = 0; src[c] != '\0' && n > 0;  c++, n--, i++)
 {
-if (n > 0)
-{
-dest[i] = src[j];
+dest[i] = src[c];
 }
-i++;
-n--;
-}
+
 return (dest);
 }
