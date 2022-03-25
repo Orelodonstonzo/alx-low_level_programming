@@ -1,7 +1,7 @@
-#include "main.h"
+ #include "main.h"
 
 /**
-* _strncat - a function that concatenates
+_strncat - a function that concatenates
 * two strings
 * up to a position n.
 * @dest: the string to copy into
