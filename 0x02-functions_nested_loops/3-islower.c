@@ -4,14 +4,11 @@
 * _islower - a function that checks
 * for lowercase alphabet
 * @c: character to input
-* 
-* Return: 1 if lowercase
-* 0 if otherwise
+* Return: 1 if lowercase 0 if otherwise
 */
 int _islower(int c)
 {
 int i;
-
 for (i = 'a' ; i <= 'z' ; i++)
 if (c == i)
 return (1);
