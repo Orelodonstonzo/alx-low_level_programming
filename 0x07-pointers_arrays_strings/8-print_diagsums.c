@@ -19,7 +19,7 @@ if (i % (size + 1) == 0)
 sum += a[i];
 i++;
 }
-printf("%d," , sum);
+printf("%d, ", sum);
 sum = 0;
 i = 0;
 while (i < sizer)
@@ -28,5 +28,5 @@ if (i % (size - 1) == 0 && i != (sizer - 1) && i != 0)
 sum += a[i];
 i++;
 }
-printf("%d\n" , sum);
+printf("%d\n", sum);
 }
