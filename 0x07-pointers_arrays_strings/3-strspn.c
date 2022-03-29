@@ -25,7 +25,7 @@ break;
 }
 j++;
 }
-if (accept [j] == '\0')
+if (accept[j] == '\0')
 break;
 i++;
 }
