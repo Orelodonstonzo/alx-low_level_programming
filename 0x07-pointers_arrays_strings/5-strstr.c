@@ -23,7 +23,7 @@ break;
 c++;
 }
 if (needle[j + c] == '\0')
-return (&haystack[i]);
+return(&haystack[i]);
 j++;
 i++;
 }
