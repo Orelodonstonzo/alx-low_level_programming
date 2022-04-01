@@ -12,5 +12,5 @@ return (-1);
 else if  (n < 2)
 return (n);
 else
-return (n * factorial (n - 1));
+return (n * factorial(n - 1));
 }
