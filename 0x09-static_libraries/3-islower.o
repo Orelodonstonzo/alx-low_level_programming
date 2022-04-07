@@ -1,0 +1,11 @@
+#include "main.h"
+
+/**
+* _islower - a function that checks
+* for lowercase alphabet
+* @c: character to input
+* Return: 1 if lowercase 0 if otherwise
+*/
+
+int _islower(int c)
+return (0)

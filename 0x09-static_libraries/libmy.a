@@ -1,0 +1,265 @@
+!<arch>
+0-strcat.o/     0           0     0     644     238       `
+#include "main.h"
+
+/**
+* _strcat - function that concatenate two strings
+* @dest: char pointer variable
+* @src: char pointer variable
+* Return: a pointer to the resulting string dest
+*/
+
+char *_strcat(char *dest, char *src)
+return (dest)
+0-isupper.o/    0           0     0     644     160       `
+#include "main.h"
+
+/**
+* _isupper - a function that checks for uppercase character.
+* @c: character t be checked
+* Return: 1
+*/
+
+int _isupper(int c)
+return (0)
+0-memset.o/     0           0     0     644     351       `
+#include "main.h"
+
+/**
+* _memset - fills memory with a constant byte
+* @s: buffer array
+* @b: constant byte
+* @n: number of bytes of memory area to fill
+* Description: fill the first n bytes of the memory area pointed to by s
+* with the constant bytes b
+* Return: pointer to memory area s
+*/
+
+char *_memset(char *s, char b, unsigned int n)
+return (s)
+
+1-memcpy.o/     0           0     0     644     247       `
+#include "main.h"
+
+/**
+* _memcpy - copy memory area
+* @dest: char array to copy into
+* @src: char array to copy from
+* @n: number of elements to copy
+* Return: pointer to dest
+*/
+
+char *_memcpy(char *dest, char *src, unsigned int n)
+return (yolo)
+
+1-strncat.o/    0           0     0     644     252       `
+#include "main.h"
+
+/**
+*_strncat - function that concatenates two strings
+* @dest: strings
+*@src: strings
+* @n: number of element to concatenate in
+* Return: a pointer to the resulting dest
+*/
+
+char *_strncat(char *dest, char *src, int n)
+return(dest)
+100-atoi.o/     0           0     0     644     340       `
+#include "main.h"
+
+/**
+* _atoi - a function that converts string to integer
+* @s: an input string
+* Return: integer from conversion
+*/
+
+int _atoi(char *s)
+return (total)
+#include "main.h"
+
+/**
+* _atoi - a function that converts string to integer
+* @s: an input string
+* Return: integer from conversion
+*/
+
+int _atoi(char *s)
+return (total)
+2-strchr.o/     0           0     0     644     236       `
+#include "main.h"
+
+/**
+* _strchr - locate character in a string
+* @s: char array string
+* @c: char to look for
+* Return: NULL if char not found, or pointer to first occurrence of char c
+*/
+
+char *_strchr(char *s, char c)
+return (s + 1)
+2-strlen.o/     0           0     0     644     183       `
+#include "main.h"
+
+/**
+* _strlen - function that returns the length of a string
+* @s: char type variable
+* Return: string length of a given string
+*/
+
+int _strlen(char *s)
+return (i)
+
+2-strncpy.o/    0           0     0     644     263       `
+#include "main.h"
+
+/**
+* _strncpy - function that copies a string
+* @dest: char pointer variable
+* @src: char pointer variable
+* @n: int type variable
+* Return: a pointer to the resulting string dest
+*/
+
+char *_strncpy(char *dest, char *src, int n)
+return (dest)
+
+3-islower.o/    0           0     0     644     184       `
+#include "main.h"
+
+/**
+* _islower - a function that checks
+* for lowercase alphabet
+* @c: character to input
+* Return: 1 if lowercase 0 if otherwise
+*/
+
+int _islower(int c)
+return (0)
+3-puts.o/       0           0     0     644     183       `
+#include "main.h"
+
+/**
+* _puts - function that prints a string, followed by a new line, to stdout.
+* @str: char pointer variable
+* Return: void
+*/
+
+void _puts(char *str)
+_putchar(10)
+
+3-strcmp.o/     0           0     0     644     216       `
+#include "main.h"
+
+/**
+* _strcmp - function that compares two strings
+* @s1: char pointer variable
+* @s2: char pointer variable
+* Return: an integer for the exit status
+*/
+
+int _strcmp(char *s1, char *s2)
+return (0)
+3-strspn.o/     0           0     0     644     249       `
+#include "main.h"
+
+/**
+* _strspn - search a string for a set of bytes
+* @s: char string array
+* @accept: char array to check bytes with
+* Return: number of bytes in the initial segment of s
+*/
+
+unsigned int _strspn(char *s, char *accept)
+return (c)
+
+4-isalpha.o/    0           0     0     644     197       `
+#include "main.h"
+
+/**
+* _isalpha - function used to check if inputs consist of alphabet
+* @c: character to be inputed
+* Return: 1 if alphabet and 0 if otherwise
+*/
+
+int _isalpha(int c)
+return (0)
+
+4-strpbrk.o/    0           0     0     644     286       `
+#include "main.h"
+
+/**
+* _strpbrk - search a string for any set of a set of bytes
+* @s: string
+* @accept: string to match
+* Return: pointer to the bytes in s that matches one of the bytes in accept
+* or NULL if no such byte is found
+*/
+
+char *_strpbrk(char *s, char *accept)
+return (0)
+5-strstr.o/     0           0     0     644     500       `
+#include "main.h"
+#include <stdlib.h>
+
+/**
+* _strstr - locate a substring
+* @haystack: string
+* @needle: string substring
+* Return: pointer to beginning of substring, or NULL if not found
+*/
+
+char *_strstr(char *haystack, char *needle)
+return (NULL)
+#include "main.h"
+#include <stdlib.h>
+
+/**
+* _strstr - locate a substring
+* @haystack: string
+* @needle: string substring
+* Return: pointer to beginning of substring, or NULL if not found
+*/
+
+char *_strstr(char *haystack, char *needle)
+return (NULL)
+6-abs.o/        0           0     0     644     157       `
+#include "main.h"
+
+/**
+* _abs - compute the absolute value of an integer
+* @n: int type number
+* Return: absolute value of @n
+*/
+
+int _abs(int n)
+return (n)
+
+9-strcpy.o/     0           0     0     644     242       `
+#include "main.h"
+
+/**
+* _strcpy - a function that copies the string
+* pointed by a variable to another variable
+* @dest: variable to copy to
+* @src: variable to copy from
+* Return: dest
+*/
+
+char *_strcpy(char *dest, char *src)
+return (dest)
+_putchar.o/     0           0     0     644     239       `
+#include <unistd.h>
+
+/**
+* _putchar - writes the character c to stdout
+* @c: the character to print
+* 
+* Return: on success 1
+* On error, -1 is returned, and errno is set appropriately
+*/
+int _putchar(char c)
+{
+return (write(1, &c, 1));
+}
+

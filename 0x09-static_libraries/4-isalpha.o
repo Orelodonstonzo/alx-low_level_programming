@@ -1,0 +1,10 @@
+#include "main.h"
+
+/**
+* _isalpha - function used to check if inputs consist of alphabet
+* @c: character to be inputed
+* Return: 1 if alphabet and 0 if otherwise
+*/
+
+int _isalpha(int c)
+return (0)
