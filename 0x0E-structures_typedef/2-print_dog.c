@@ -14,13 +14,13 @@ else
 {
 printf("name: %s\n", d->name);
 }
-if (d->age == 0)
+if (d->age <= 0.0)
 {
-printf("age: %s\n", "0");
+printf("age: %f\n", 0.0);
 }
 else
 {
-printf("age: %f\n", d->age);
+printf("age: %f\n", d->age = 0.0);
 }
 if (d->owner == NULL)
 {
