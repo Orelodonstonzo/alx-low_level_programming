@@ -10,7 +10,7 @@ return;
 if (d->name == NULL)
 printf("name: %s\n", "(nil)");
 if (d->age <= 0)
-printf("age: %s\n", 0);
+printf("age: %d\n", 0);
 if (d->owner == NULL)
 printf("owner: %s\n", "(nil)");
 
