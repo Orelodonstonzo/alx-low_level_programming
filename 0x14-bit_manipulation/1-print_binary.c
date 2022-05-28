@@ -12,7 +12,7 @@ void print_binary(unsigned long int n)
 int mov = 0, mov_num;
 unsigned long int bin, tmp;
 
-if (n = 0)
+if ((n = 0))
 {
 printf("0");
 return;
