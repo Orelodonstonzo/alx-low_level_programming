@@ -14,9 +14,9 @@ int n = 0, i = 0;
 char *sep = ",";
 char *str;
 va_start(ap, format);
-while (format && format [i])
+while (format && format[i])
 i++;
-while (format && format [n])
+while (format && format[n])
 {
 if (n == (i - 1))
 {
